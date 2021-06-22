@@ -1,0 +1,86 @@
+   .site{
+    background-color: rgb(231, 237, 240);
+} 
+
+.site-title{
+  padding: 2em 0;
+    color: blue; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+}
+.navh{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.top{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 5%;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: color #333;
+    position:absolute;
+  }
+.t1{
+  padding-left: 25%;
+
+}
+
+  li{
+    float: left;
+
+  }
+  li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+  
+     padding: 14px 16px; 
+    text-decoration: none;
+    background-color:darkcyan;
+  }
+  li a.active{
+    background-color:cornflowerblue;
+    
+  }
+  li a:hover:not(.active){
+    background-color:turquoise;
+    color: white;                 
+  }
+ 
+
+p{
+  font-family: sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+h2,h3{
+padding-left: 10%;
+padding-right: 10%;
+font-family: sans-serif;
+color:rgb(20, 85, 150);
+}
+h1{
+color:rgb(98, 96, 216);
+}
+.footer-pharm{
+color: rgb(224, 233, 243);
+}
+
+.ftco-footer-widget{
+color: #cedbdd;
+background: rgb(28, 73, 73);
+padding: 2em 0;
+font-size: 14px;
+}
+.ftco-heading-2{
+  color: rgb(224, 233, 243);
+}
+.img{
+  
+  padding-left: 80px;
+  width:800px;
+   height:300px;
+   padding-left
+}

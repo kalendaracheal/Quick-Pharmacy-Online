@@ -1,0 +1,152 @@
+.site-title{
+  padding: 2em 0;
+    color: blue; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+}
+.navh{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.top{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 5%;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: color #333;
+    position:absolute;
+  }
+  .site{
+    
+    
+}
+.site-head{
+  /* font-family: Sailec, Arial; */
+
+}
+
+
+  li{
+    float: left;
+
+  }
+  li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+  
+     padding: 14px 16px; 
+    text-decoration: none;
+    background-color:darkcyan;
+  }
+  li a.active{
+    background-color:cornflowerblue;
+    
+  }
+  li a:hover:not(.active){
+    background-color:turquoise;
+    color: white;                 
+  }
+ 
+  .t1{
+      padding-left: 25%;
+
+  }
+  p{
+      font-family: sans-serif;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+h2,h3{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: sans-serif;
+    color:rgb(20, 85, 150);
+}
+h1{
+    color:rgb(98, 96, 216);
+}
+.footer-pharm{
+  color: rgb(224, 233, 243);
+}
+
+.ftco-footer-widget{
+  color: #cedbdd;
+  background: rgb(28, 73, 73);
+  padding: 2em 0;
+  font-size: 14px;
+}
+
+.ftco-heading-2{
+  color: rgb(224, 233, 243);
+}
+.form{
+  /* background-image: url("C:\Users\Racheal\Desktop\pharm\images\med.png"); */
+  padding-left: 20%;
+  padding-right: 5%;
+  
+}
+.form1{
+  background-color: rgb(184, 201, 200);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img{
+  background: url(./images/med.png) no-repeat center fixed;
+  background-size: cover;
+  padding-left: 80px;
+  
+}
+
+.submit {
+  background-color:darkcyan;
+  color: white;
+  outline-style:none;
+  border-color: aliceblue;
+  border-radius: 10px 15px;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  height: 10px;
+  width: 90px;
+  cursor: pointer;
+  
+  /* text-align: center;
+  margin-top: 20px; */
+  font-size: 18px;
+  cursor:pointer;  
+}
+.label{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.input{
+  float: left;
+width: 75%;
+margin-top: 6px;
+
+}
+.col-25{
+content: "";
+display: table;
+clear: both;
+font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+label{
+  padding: 12px 12px 12px;
+  display: inline-block;
+}
+input[type=text],input[type=address],input[type=password],input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  resize: vertical;
+}
+*{
+  box-sizing: border-box;
+}

@@ -3,95 +3,47 @@
     <head>
         <meta charset="utf-8"/>
         <title>PHARM</title>
-        <style type="text/css">
-        body {
-            margin: 0;
-            background: scroll;
-        }
-        .showslide{
-            display: contents;
-        }
-         
-        div.top{
-                  list-style-type: none;
-                  margin: 0;
-                  padding-left: 5%;
-                  padding-top: 8%;
-                  padding-right: 5%;
-                  width: 100%;
-                  top: 0;
-                  overflow: hidden;
-                  background-color: color #333;
-                  position:absolute;
-                }
-                li{
-                  float: left;
-
-                }
-                li a{
-                  
-                  display: block;
-                  color: white;
-                  text-align: center;
-                
-                   padding: 14px 16px; 
-                  text-decoration: none;
-                  background-color:darkcyan;
-                }
-                li a.active{
-                  background-color:cornflowerblue;
-                  
-                }
-                li a:hover:not(.active){
-                  background-color:turquoise;
-                  color: white;                 
-                }
-                img{
-                  border-radius: 8px;
-                  padding: 5px;
-                  width: 400px;
-                  position: relative;
-                  height: auto;
-                  margin-left: auto;
-                  margin-right: auto;
-                }
-
-            </style>   
+        <link rel="stylesheet" href="index.js">
+      <link rel="stylesheet" href="index.css">  
             </head>
 <body>
   
-        <div class="site-wrap" >
-            <div class="site-logo"><h2 style="color: blue; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; ">QUICK PHARMACY ONLINE</h2></div>
+  <div class="site-wrap" >
+            <div class="site-logo">
+              <h2 class="site-title" >QUICK PHARMACY ONLINE</h2>
+            </div>
+    <div class="container" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
             <nav onclick="queue()">
-                <div class="container" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+               
                     <div style="text-align: right; color: grey;padding:5%;"><span>Tel:+256757081140/+256787114757</span>
                     <br><span>Email: kalendaracheale@gmail.com</span><br>
                   <span>Location : Kampala-Uganda</span></div>
        
+                  <nav class="navbar">
                         <div class="top">
-                        <li class="active"><a href="category.html">Category</a></li>
-                        <li><a href="cart.html">Cart</a></li>
+                          <li class="active"><a href="index.html">Home</a></li>
+                       <li><a href="category.html">Category</a></li> 
                        <li><a href="about.html">About</a></li> 
                         <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="question.html">FAQs</a></li>
                           </div>
-                          
+                        </nav>
                           <div style="padding-left:5%;">
-                          <a href="medication.html">Medication</a><br>
-                          <div class="dropdown arrow-top">
-                                <a href="Tablets.html">Tablets and capsules</a><br>
-                                <a href="creams.html">Gels, Creams and Ointments, Suppositories, Pesarries</a><br>
-                                <a href="oral.html">Oral Suspension/Solutions</a><br>
-                                <a href="injectables.html">Injectables</a><br>
-                                <a href="drops.html">Eye/Ear/Nose Drops</a><br>
-                                <a href="inhalers.html">Inhalers, Sprays and Patches</a><br>
-                                <a href="sachets.html">Powders/Sachets and efferverscent tablets</a><br>
-                                <a href="soaps.html">Soaps/Hand Sanitizers</a><br>
-                                <a href="devices.html">Medical Devices</a><br>
-                        
-                      </div>
-                      </div>
-                </div>
-          </nav>
+                            <a href="medication.html">Medication</a><br>
+                            <div class="dropdown arrow-top">
+                                  <a href="Tablets.html">Tablets and capsules</a><br>
+                                  <a href="creams.html">Gels, Creams and Ointments, Suppositories, Pesarries</a><br>
+                                  <a href="oral.html">Oral Suspension/Solutions</a><br>
+                                  <a href="injectables.html">Injectables</a><br>
+                                  <a href="drops.html">Eye/Ear/Nose Drops</a><br>
+                                  <a href="inhalers.html">Inhalers, Sprays and Patches</a><br>
+                                  <a href="sachets.html">Powders/Sachets and efferverscent tablets</a><br>
+                                  <a href="soaps.html">Soaps/Hand Sanitizers</a><br>
+                                  <a href="devices.html">Medical Devices</a><br>
+                          
+                            </div>
+                          </div>
+                        </nav>
           <div class="container2" style="background-image: url(images/y6.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
             <div class="container">
              
@@ -107,7 +59,7 @@
                     size: 200px;"><h2>Quick Preview</h2>
                    <div class="img" >  
                     
-                    <a href="img"><img src="F:\PHARMACY ONLINE\images\sanitizer.png" ></a>
+                    <a href="img"><img src="./images/sanitizers.png" ></a>
                     </div>
 
                   </div>
@@ -135,30 +87,29 @@
          </div>
        
 
-       <div>
-           <div>
-
-
-            <div class="row">
-                
-                  <span class="sub-title" style="color: dodgerblue;font-family: Arial, Helvetica, sans-serif;">Quick Pharmarcy your can trust</span>
-                  <marquee width="60%" direction="left" height="100px">
-                  <h2> <span style="color: dodgerblue;"> YOUR HEALTH,</span> OUR PRIORITY</h2>
-                </marquee>
-                
-              </div>
-              
-           </div>
-       </div>
-
-
-       <div class="site2" >
-           <div class="container" >
-               <div class="row2" style="padding: 5%;">
-
+            
                 <div>
+
+
+                  <div class="row">                      
+                      <div class="sub">  <span>Quick Pharmarcy your can trust</span></div>
+                    <marquee width="60%" direction="left" height="100px">
+                        <h2> <span style="color: dodgerblue;"> YOUR HEALTH,</span> OUR PRIORITY</h2>
+                    </marquee>
+                      
+                  </div>
+                    
+                </div>
+            
+
+
+      <div class="site2" >
+        <div class="flex-container" >
+              <div class="row2" >
+
+                <div class ="med">
                     <a href="kitchen.html" class="d-block figure">
-                      <img src="F:\PHARMACY ONLINE\images\masks.png" >
+                     <div class="img-home"> <img src="./images/masks.png" /></div>
                     </a>
                     <h3 class="mb-0"><a href="kitchen.html">Masks</a></h3>
                     <span class="text-muted">High quality with breathable tiny holes</span>
@@ -168,9 +119,9 @@
 
 
                 
-                <div>
+                <div class="med">
                     <a href="kitchen.html" class="d-block figure">
-                      <img src="F:\PHARMACY ONLINE\images\suit.png">
+                      <div class="img-home"><img src= "./images/suit.png"/></div>
                     </a>
                     <h3 class="mb-0"><a href="kitchen.html">Surgical suits</a></h3>
                     <span class="text-muted">good texture and water resistant</span>
@@ -180,9 +131,9 @@
 
 
                 
-                <div>
+                <div class="med">
                     <a href="kitchen.html" class="d-block figure">
-                      <img src="F:\PHARMACY ONLINE\images\cream.png" alt="F:\PHARMACY ONLINE\images\cream1.png">
+                      <div class="img-home"> <img src="./images/cream1.png" alt="Cream"/></div>
                     </a>
                     <h3 class="mb-0"><a href="kitchen.html">Creams</a></h3>
                     <span class="text-muted">Best quality for a specific skin infection</span>
@@ -193,39 +144,39 @@
 
 
                 
-                <div>
+                <div class="med">
                     <a href="kitchen.html" class="d-block figure">
-                      <img src="F:\PHARMACY ONLINE\images\capsule.png" alt="F:\PHARMACY ONLINE\images\capsules.png">
+                      <div class="img-home"> <img src="./images/capsule.png" alt="Capsule"/></div>
                     </a>
                     <h3 class="mb-0"><a href="kitchen.html">capsules</a></h3>
-                    <span class="text-muted">Effective with the right prscription</span>
+                    <span class="text-muted">Effective with the right prescription</span>
                     <p class="price">UGX 500 - 5000</p>
                     
                 </div>
                 
                 
-                <div>
+                <div class="med">
                   <a href="kitchen.html" class="d-block figure">
-                    <img src="F:\PHARMACY ONLINE\images\inhaler.png" alt="F:\PHARMACY ONLINE\images\inhaler.png">
+                    <div class="img-home"> <img src="./images/inhaler.png" alt="Inhaler"/></div>
                   </a>
                   <h3 class="mb-0"><a href="kitchen.html">Inhalers</a></h3>
                   <span class="text-muted">Reliable, affordable and high quality inhalers from G&T Phamacueticals mumbai</span>
                   <p class="price">UGX 200000-850000</p>
                   
-              </div>
+                </div>
 
                 
-                <div>
+                <div class="med">
                     <a href="kitchen.html" class="d-block figure">
-                      <img src="F:\PHARMACY ONLINE\images\inject.png" alt="F:\PHARMACY ONLINE\images\injectibl.png">
+                      <div class="img-home">  <img src="./images/inject.png" alt="./images/injectibl.png"/></div>
                     </a>
                     <h3 class="mb-0"><a href="kitchen.html">Injectibles</a></h3>
                     <span class="text-muted">well galvanised and satified internationally</span>
                     <p class="price">620000-1500000 UGX</p>
                     
                 </div>
-                
-                <center> 
+              </div>
+                  <center> 
                     <p><a href="https://form.jotform.com/202245971533555" class="btn btn-primary btn-lg rounded-0" style="background-color:lightblue; font-family:cursive">Shop Now </a></p>
                   </center> 
                   
@@ -242,11 +193,9 @@
 
 
                   <section class="ftco-section testimony-section">
-                    <center>
-                    <div class="container" style="background-color: lavender;">
-                      <div >
-                        
-                           <div>
+                    
+                      <div class="container" style="background-color: lavender;">
+                        <div >
                           <span></span>
                           <h2>Our Satisfied Customer says</h2>
                         </div>
@@ -256,22 +205,22 @@
                           <div class="item text-center">
                             <div class="testimony-wrap p-4 pb-5">
                               <div
-                                class="user-img mb-4"
-                                style="background-image: url(images/person_1.jpg);"
+                                class="user-img"
+                                style="background-image: url(./images/Nathan.png);"
                                 
-                              ></div>
+                              > </div>
                               <div class="text">
                                 <p class="star-rate">
-                                  <span class="icon-star"></span
+                                  <span class="icon-star">check</span
                                   ><span class="icon-star"></span
                                   ><span class="icon-star"></span
-                                  ><span class="icon-star"></span
+                                  ><span class="icon-star">check</span
                                   ><span class="icon-star-half-full"></span>
                                 </p>
                                 <p class="mb-5" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                                   Quick Pharmacy is the best to consider in case you are looking for any medication especially during this pandemic.
                                 </p>
-                                <p class="name" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gladys</p>
+                                <p class="name" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Nathan</p>
                                 <span class="position" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Owner Friecca Pharm in Wakiso</span>
                               </div>
                             </div>
@@ -280,7 +229,7 @@
                             <div class="testimony-wrap p-4 pb-5">
                               <div
                                 class="user-img mb-4"
-                                style="background-image: url(images/person_2.jpg);border: 1px solid red"
+                                style="background-image: url(./images/Racheal.png);border: 1px solid red"
                                 
                               ></div>
                               <div class="text">
@@ -369,165 +318,59 @@
                               </p>
                               </div>
                             </div>
-                          </div>   </div>
+                          </div>   
+                        </div>
                       </div>
-                    </div></center>
-                  </section>
-                       
-            
-
-
-                  <footer class="ftco-footer ftco-bg-dark ftco-section"  >
-                    <div class="container" style="background-color:rgb(172, 199, 214)
-                    ;">
-                      <div class="row mb-5">
-                        <div class="col-md">
-                          <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2" >Awesome, Reliable and affordable</h2>
-                            <p>
-                             Get your Life insured and cared for with Quick Pharmacy. Providing the best medicine and medical equipments nation wide with an aim of saving lives.  </p>
-                            <ul
-                              class="ftco-footer-social list-unstyled float-md-left float-lft"
-                            >
-                              <li class="ftco-animate">
-                                <a href="#"><span class="icon-twitter"></span></a>
-                              </li>
-                              <li class="ftco-animate">
-                                <a href="facebook.com"><span class="icon-facebook"></span></a>
-                              </li>
-                              <li class="ftco-animate">
-                                <a href="#"><span class="icon-instagram"></span></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col-md">
-                          <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Opening Hours</h2>
-                            
-                              <li>
-                                Monday: <span>8:00am - 5:00pm</span>
-                                
-                              </li><br>
-                              <li>
-                                <span>8:00am - 5:00pm</span>
-                          
-                              </li><br>
-                              <li>
-                                Wednesday: <span>8:00am - 5:00pm</span> 
-                              </li><br>
-                              
-                              <li>
-                              Thursday: <span>8:00am - 5:00pm</span>
-                            
-                              </li><br>
-                              <li>
-                              Friday: <span> 8:00am - 5:00pm</span>
-                                
-                              </li><br>
-                              <li>
-                                Saturday: <span>8:00am - 5:00pm</span>                                
-                              </li><br>
-                              <li>
-                              
-                                  Sunday: <span>8:00am - 5:00pm</span>
-                            
-                              </li>
-                            
-                          </div>
-                        </div>
-                        <div class="col-md">
-                          <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Contact Information</h2>
-                            <ul class="list-unstyled">
-                              <li>
-                              
-                                  Quick Pharmacy is located in kampala buganda road opposite Hotel Triangle east of innovation village, Kampala -Uganda
-                                </li><br>
-                              <li> +256757081140 /+2567871147571</li>
-                              <li>kalendaracheale@yahoo.com</li>
-                              <li>kalendaracheale@gmail.com</li>
-                            </ul>
-                          </div>
-                        </div>
-                 
-                          <div class="col-md-12 text-center">
-                            <p>
-                              Copyright &copy;
-                              <script>
-                                document.write(new Date().getFullYear());
-                              </script>
-                              All rights reserved | cc     
-                                <i class="icon-heart" aria-hidden="true">  Quick Pharmacy Ug</i> 
-                              <a href="https://colorlib.com" target="_blank">Uganda</a>
-                            </p>
-                          </div>
-                        </div>
-                     
-                    </div>
-                  </footer>
-              
-                  
-
-               </div>
-           </div>
-       </div>
-
-
-        
-   
-
-
-
-
-
-
-
-
-    <div>show</div>
-    <button style="color:midnightblue; background-color: pink; " onclick="queue()">create queue</button>
-   <div id="enq">click to add element to the queue
-            
-         <button style="color:midnightblue; background-color: pink; " onclick="enqueue()">Add element to the queue</button>
-       </div>
-       <div id="peek">
-         <button style="color:midnightblue; background-color: pink; " onclick="peek()">peek is</button>
-       </div>
-       <div id="getLast"> 
-              <button style="color:midnightblue; " onclick="getLast()">outputs last element</button>
-             </div>
-    <div id="deq">
-         <button style="color:midnightblue; " onclick="denqueue()">deque element</button>
-       </div>
-   
-         <button style="color:midnightblue;  " onclick="print()">Print</button>
-   <div id="clr">
-         <button style="color:midnightblue; " onclick="reset_queue()">clear queue</button>
-       </div>
-       <div>
-         <button style="color:midnightblue; " onclick="queue()">create queue</button>
-       </div>
-   
-   
-   
-   <div></div>
-   <div>
-     <button onclick="Queue">Create a queue</button>
-     
-     <input type="number" class="">
-     <button onclick="Queue.prototype.enqueue()">Add element</button>
-     <button onclick="Queue.prototype.dequeue()">Remove element</button>
-     <button onclick="Queue.prototype.isEmpty()">Check if queue is empty</button>
-     <button onclick="Queue.prototype.peek()">Return element on top of the queue</button>
-     <button onclick="Queue.prototype.length()">Show length of a queue</button>
-     <button onclick="Queue">Create a queue</button>
-     <button onclick="Queue">Create a queue</button>
-   </div> 
-   
-   
-   </div>
+                    
+                    
+                  </section>                      
+        </div>
+      </div> 
+    </div>
   </div>
-  </body>
+
+
+    
+
+  <div class="ftco-footer-widget">
+    <h2 class="ftco-heading-2">Opening Hours</h2>
+    <p>
+      Monday to Friday: <span>8:00am - 5:00pm</span>
+    </p>
+    <p>Saturday and Sunday: <span>9:00am - 4:00pm</span></p>
+
+
+    <div class="col-md">
+      <div class="ftco-footer">
+        <h2 class="ftco-heading-2">Contact Information</h2>
+
+           <div class="footer-pharm">
+             <p>
+              Quick Pharmacy is located in kampala buganda road opposite Hotel Triangle east of innovation village, Kampala - Uganda
+             </p>
+             <p> +256757081140 /+2567871147571</p>
+             <p>kalendaracheale@yahoo.com</p>
+             <p>kalendaracheale@gmail.com</p>
+           </div>
+      </div>
+    </div>
+
+
+    <div>
+      <br><p>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+           All rights reserved | cc     
+          <i class="icon-heart" aria-hidden="true">  Quick Pharmacy Ug</i> 
+          
+      </p>
+    </div>
+</div>
+
+</div>
+</body>
 
 
     </html>
